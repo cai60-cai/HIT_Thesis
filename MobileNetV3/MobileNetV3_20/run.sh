@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+python train_at_mobilenetv3.py
+python train_dense_res_opt_mobilenetv3.py
+python train_dense_res_opt_trans_bn_at_mobilenetv3.py
+python train_dense_res_opt_trans_bn_mobilenetv3.py
+python train_dense_residual_mobilenetv3.py 
+python train_opt_mobilenetv3.py
+python train_orginal_mobilenetv3.py
+python train_dense_res_opt_trans_gn_mobilenetv3.py
+
